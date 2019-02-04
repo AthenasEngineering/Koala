@@ -10,6 +10,10 @@ const convertBytesToUUID = (bytes, offset = 0, map = BYTE_MAP) => {
     const instructions = [4, 2, 2, 2, 6];
     const parts = [];
 
+    if(bytes instanceof Buffer) {
+        bytes = [...bytes];
+    }
+
     instructions.forEach(instruction => {
         const part = [];
 
