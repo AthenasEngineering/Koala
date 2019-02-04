@@ -16,7 +16,7 @@ class v4 {
 
         if (Array.isArray(buffer)) {
             for (let i = 0; i < 16; i++) {
-                buffer[offset + 1] = bytes[i];
+                buffer[offset + i] = bytes[i];
             }
 
             return buffer;
