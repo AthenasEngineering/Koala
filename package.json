@@ -1,6 +1,6 @@
 {
   "name": "athenas-koala",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Koala is a simple uuidv4 generator.",
   "main": "src/uuid.js",
   "scripts": {
