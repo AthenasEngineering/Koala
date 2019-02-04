@@ -5,6 +5,19 @@ Koala is a simple UUID v4 generator made for node.js.
 Yes, I'm aware that true and tested resources like [Kelektiv's UUID](https://github.com/kelektiv/node-uuid) out there, but in all honesty?
 I _hate_ dependencies I have no control over. The leftPad, uws, etc incidents kinda shows why.
 
+# Alright, how?
+
+Rather simple actually
+
+## v4
+
+```javascript
+const  {v4: KoalaV4} = require('athenas-koala');
+
+//To get a simple text uuid
+const text_uuid = KoalaV4.new();
+```
+
 # LICENSE
 
 ## MIT License
